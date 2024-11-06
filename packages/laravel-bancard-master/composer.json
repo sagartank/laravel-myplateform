@@ -1,0 +1,35 @@
+{
+    "name": "w3n/laravel-bancard",
+    "description": "",
+    "keywords": [
+        "laravel",
+        "bancard"
+    ],
+    "homepage": "https://github.com/miguelmchavez/laravel-bancard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Chavez",
+            "email": "miguelmchavez@hotmail.com",
+            "homepage": "https://github.com/miguelmchavez",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deviam\\Bancard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deviam\\Bancard\\BancardServiceProvider"
+            ]
+        }
+    }
+}

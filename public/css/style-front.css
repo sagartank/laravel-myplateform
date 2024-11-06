@@ -1,0 +1,127 @@
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border-color: #dc3545 !important;
+    background: none;
+    padding-right: 15px;
+}
+
+.input-text::placeholder,
+.input_text::placeholder,
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.header_main .head_right .profile_box .thumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.tags_row .tagsinput .tag {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 10px;
+    padding: 3px 26px 3px 4px;
+    font-size: 12px;
+    color: var(--mipo-black);
+    font-weight: 500;
+    background-color: var(--mipo-light-gray);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+input.form-error {
+    border: 1px solid red !important;
+}
+
+label.error {
+    color: red !important;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+/* lottie loader */
+.loader-div {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    z-index: 9999;
+    display: none;
+}
+.loader-div::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.loader-icon {
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    display: inline-block;
+    height: 160px;
+    position: absolute;
+    top: calc(50% - 80px);
+    left: calc(50% - 80px);
+}
+
+.toast {
+    background-color: #030303 !important;
+}
+
+.toast-success {
+    background-color: #51A351 !important;
+}
+
+.toast-error {
+    background-color: #BD362F !important;
+}
+
+.toast-info {
+    background-color: #2F96B4 !important;
+}
+
+.toast-warning {
+    background-color: #F89406 !important;
+}
+
+.counter_offer_input .input_oprt.gs {
+    background-image: url(../images/gs.svg);
+}
+
+.explore_offer_input.gs {
+    background-image: url(../images/gs.svg);
+    background-repeat: no-repeat;
+    background-size: 8px auto !important; background-repeat: no-repeat; background-position: center left 10px; padding-left: 25px !important; 
+    
+}
+
+.explore_offer_input.dollar {
+    background-image: url(../images/dollar-sign-gray.svg);
+    background-repeat: no-repeat;
+    background-size: 8px auto !important; background-repeat: no-repeat; background-position: center left 10px !important; padding-left: 25px !important; 
+}
+/* fix for box shadowd by sagar ask to aarya  date::19-4-2023*/
+.form-control {
+    box-shadow: none !important;
+}
+.select2 {
+    box-shadow: none !important;
+}

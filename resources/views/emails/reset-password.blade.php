@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@701,200,500,301,201,1,300,2,601,600,401,501,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body
+    style="margin:0; padding:0; font-family: 'General Sans', sans-serif !important; font-size:14px !important; color:#000 !important;">
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="content-block" style="background: #dee9f9;">
+        <style>
+            body,
+            img,
+            div,
+            p,
+            ul,
+            li,
+            span,
+            strong,
+            a {
+                margin: 0;
+                padding: 0;
+            }
+
+            table {
+                border-spacing: 0;
+                border-collapse: collapse;
+            }
+
+            table td {
+                border-collapse: collapse;
+            }
+
+            a {
+                color: #000000;
+                text-decoration: underline;
+                outline: none;
+            }
+
+            a:hover {
+                text-decoration: none !important;
+            }
+
+            a[href^="tel"],
+            a[href^="sms"] {
+                text-decoration: none;
+                color: #ffd204;
+            }
+
+            .mail_body .textblock p+p {
+                margin-top: 15px;
+            }
+        </style>
+        <tr>
+            <td align="center" class="mail_body" style="padding-top: 70px; padding-bottom: 70px;">
+                <table cellpadding="0" cellspacing="0" width="100%" align="center"
+                    style="width: 600px; background-color: #FFF; border-radius: 4px;">
+                    <tr>
+                        <td style="padding: 28px 60px 90px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td class="mail-logo" style="padding-bottom: 60px; text-align: center;">
+                                        <img src="{{ asset('images/logo.png') }}" style="max-width: 100%; border: none; height: auto; max-height: 75px; width: 75px;">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="main-text">
+                                        <h5
+                                            style="margin-top: 0;margin-bottom: 25px; font-size: 24px; color: #0D6EFD; font-weight: 500;">
+                                            Dear {{ $user->name }},
+                                        </h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 15px;">
+                                        <p>A request has been received for reset password for your account registered on Mipo platform.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 15px;">
+                                        <p>You can reset your account password by clicking the below button:</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 35px 0;">
+                                        <a href="{{ $link }}" target="_blank"
+                                            style=" width: 100%;
+                                            max-width: 100%;
+                                            height: 56px;
+                                            position: relative;
+                                            padding: 0 0;
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            border-radius: 4px;
+                                            border: solid 1px #0D6EFD !important;
+                                            background-color: #0D6EFD;
+                                            -webkit-box-shadow: none;
+                                            box-shadow: none;
+                                            -webkit-transition: all .3s ease-in-out;
+                                            transition: all .3s ease-in-out;
+                                            -webkit-appearance: none;
+                                            -moz-appearance: none;
+                                            appearance: none;
+                                            text-decoration: none;
+                                            color: #FFF;">
+                                            Reset Password
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-bottom: 35px;">
+                                        <p>If you didn’t request this, Please contact support center.</p>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="mail-footer"
+                                        style="padding-top: 40px; text-align: center; border-top: 1px solid #bdbdbd;">
+                                        <table cellpadding="0" cellspacing="0" width="100%" align="center">
+                                            <tr>
+                                                <td>
+                                                    <h6
+                                                        style="margin-top: 0;margin-bottom: 15px; font-size: 20px; color: #0D6EFD; font-weight: 500;">
+                                                        MI Portfolio</h6>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <p><strong>Email us:</strong> contact@mipo.com.py
+                                                            <span style="display: inline-block; margin: 0 5px;">|</span>
+                                                            <strong>Website:</strong> www.mipo.com.py
+                                                        </p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

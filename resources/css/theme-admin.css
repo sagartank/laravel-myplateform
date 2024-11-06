@@ -1,0 +1,7 @@
+@import url('../theme/dist/vendors/simplebar/css/simplebar.css');
+@import url('../theme/dist/css/style.css');
+@import url('../theme/dist/vendors/@coreui/icons/css/free.min.css');
+@import url('./style-admin.css');
+
+@import url('../../public/plugins/toastr/toastr.min.css');
+@import url('../../public/plugins/daterangepicker/daterangepicker.css');

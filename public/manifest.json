@@ -1,0 +1,47 @@
+{
+    "name": "MIPO",
+    "short_name": "Mipo",
+    "start_url": "/index.php",
+    "background_color": "#FFFFFF",
+    "description": "Desbloquee el flujo de caja con Mipo: venda facturas impagas y reciba pagos más rápido. Plataforma de factoraje de mercado abierto  #1",
+    "display": "fullscreen",
+    "theme_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "/images/pwa/mipo-x48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pwa/mipo-x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+}
